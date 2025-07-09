@@ -11,6 +11,10 @@ body.dark
     picture.dark
       display: inline-block
     .wrapp
+      &:after
+        background: linear-gradient(-90deg, $dark-bg 0%, rgba(1, 1, 62, 0.00) 100%)
+      &:before
+        background: linear-gradient(90deg, $dark-bg 0%, rgba(1, 1, 62, 0.00) 100%)
       .container
         &:after
           background: linear-gradient(0deg, $dark-bg 0%, rgba(1, 1, 62, 0.00) 100%)
