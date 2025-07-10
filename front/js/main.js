@@ -69,16 +69,4 @@
         }
     }
 
-    // TEST
-
-    document.addEventListener("DOMContentLoaded", () => {
-        document.querySelector(".menu-btn")?.addEventListener("click", () => {
-            document.querySelector(".menu-test")?.classList.toggle("hide");
-        });
-    });
-
-    document.querySelector('.dark-btn').addEventListener('click', () => {
-        document.body.classList.toggle('dark');
-    });
-
 })();
