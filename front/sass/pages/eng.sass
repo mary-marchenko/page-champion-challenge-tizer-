@@ -12,3 +12,27 @@ picture
       display: none
     &.en
       display: inline-block
+  .wrapp
+    .right
+      &__title
+        width: 200px
+        @media screen and (max-width: 1050px)
+          width: max-content
+      .rulesBtn
+        @media screen and (max-width: 600px)
+          font-size: 17px
+          padding: 12px 13px 12px 15px
+  .popups__item
+    &-title
+      @media screen and (max-width: 640px)
+        font-size: 13px
+        line-height: 15px
+      @media screen and (max-width: 483px)
+        font-size: 11px
+        line-height: 15px
+        height: 50px
+        padding-right: 65px
+    &-closeBtn
+      @media screen and (max-width: 483px)
+        height: 50px
+        width: 60px
